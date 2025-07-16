@@ -40,7 +40,7 @@ const Portfolio = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 3xl:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div key={index} className="group relative overflow-hidden rounded-2xl bg-gray-800 hover:transform hover:scale-[1.02] transition-all duration-300">
-              <div className="aspect-[16/10] overflow-hidden">
+              <div className="aspect-[1/1] lg:aspect-[16/10] overflow-hidden">
                 <img 
                   src={project.image}
                   alt={project.title}
@@ -53,7 +53,7 @@ const Portfolio = () => {
               
               <div className="absolute bottom-0 left-0 right-0 p-8">
                 <div className="flex items-center justify-between mb-3">
-                  <span className="text-sm text-gray-300 bg-white/10 px-3 py-1 rounded-full backdrop-blur-sm">
+                  <span className="text-[1.5vh] text-gray-300 bg-white/10 px-3 py-1 rounded-full backdrop-blur-sm">
                     {project.category}
                   </span>
                   <div className="flex space-x-2">
@@ -68,8 +68,8 @@ const Portfolio = () => {
                     
                   </div>
                 </div>
-                <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
-                <p className="text-gray-300 text-sm leading-relaxed">{project.description}</p>
+                <h3 className="text-[3vh] lg:text-2xl font-bold mb-2">{project.title}</h3>
+                <p className="text-gray-300 text-[1.5vh] lg:text-sm leading-relaxed">{project.description}</p>
               </div>
             </div>
           ))}

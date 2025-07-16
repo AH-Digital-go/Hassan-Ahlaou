@@ -20,7 +20,7 @@ const Hero = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Left side - Text content */}
-          <div className="space-y-8">
+          <div className="space-y-8 mt-24 lg:mt-0 text-center lg:text-left flex flex-col items-center lg:items-start">
             <div className="space-y-2">
               <p className="text-gray-400 text-sm tracking-wider uppercase">AI • AUTOMATION • NO-CODE • INFRASTRUCTURE DE CROISSANCE</p>
               <h1 className="text-7xl md:text-8xl font-bold leading-tight">
@@ -38,16 +38,18 @@ const Hero = () => {
             </div>
 
             <div className="pt-4">
+              <a href='#contact'>
               <button className="group flex items-center space-x-3 bg-white text-black px-8 py-4 rounded-full hover:bg-gray-200 transition-all duration-300">
-                <span className="font-semibold">View Portfolio</span>
+                <span className="font-semibold">Contactez-nous</span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </button>
+              </a>
             </div>
           </div>
 
           {/* Right side - Image */}
           <div className="mt-6  relative">
-            <div className="aspect-[3/4] rounded-lt-lg bg-gradient-to-br from-gray-600 to-gray-900 overflow-hidden">
+            <div className="aspect-[2/3] rounded-t-full lg:rounded-lg lg:aspect-[3/4] bg-gradient-to-br from-gray-600 to-gray-900 overflow-hidden">
               <img 
                 src="/images/WhatsApp Image 2025-07-15 at 15.56.53.jpeg"
                 alt="Hassan AHLAOU"
