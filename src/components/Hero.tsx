@@ -30,15 +30,15 @@ const Hero = () => {
               <p className="text-xl text-gray-400">Fondateur et CEO de Ahdigital <br />Maroc, Agadir</p>
             </div>
 
-            <div className="flex space-x-4">
+            <div className="flex space-x-8">
               {/* <a href=''> <Instagram className="w-6 h-6 text-gray-400 hover:text-white cursor-pointer transition-colors" /> </a> */}
-             <a href='https://x.com/ahdigital_tech'>  <Twitter className="w-6 h-6 text-gray-400 hover:text-white cursor-pointer transition-colors" />  </a>
-              <a href='https://www.linkedin.com/company/ahdigital-automation/'> <Linkedin className="w-6 h-6 text-gray-400 hover:text-white cursor-pointer transition-colors" />  </a>
-              <a href='https://web.facebook.com/people/Ahdigital/61570213799534/'> <Facebook className="w-6 h-6 text-gray-400 hover:text-white cursor-pointer transition-colors" />  </a>
+             <a href='https://x.com/ahdigital_tech'>  <Twitter className="w-8 h-8 text-white hover:text-white cursor-pointer transition-colors" />  </a>
+              <a href='https://www.linkedin.com/company/ahdigital-automation/'> <Linkedin className="w-8 h-8 text-white hover:text-white cursor-pointer transition-colors" />  </a>
+              <a href='https://web.facebook.com/people/Ahdigital/61570213799534/'> <Facebook className="w-8 h-8 text-white hover:text-white cursor-pointer transition-colors" />  </a>
             </div>
 
             <div className="pt-4">
-              <a href='#contact'>
+              <a href='https://api.whatsapp.com/send/?phone=212636308953&text&type=phone_number&app_absent=0'>
               <button className="group flex items-center space-x-3 bg-white text-black px-8 py-4 rounded-full hover:bg-gray-200 transition-all duration-300">
                 <span className="font-semibold">Contactez-nous</span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
@@ -56,11 +56,7 @@ const Hero = () => {
                 className=" w-full h-full object-cover rounded-tl-lg"
               />
             </div>
-            <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-accent-green rounded-full flex items-center justify-center">
-              <div className="w-16 h-16 bg-black rounded-full flex items-center justify-center">
-                <ArrowRight className="w-8 h-8 text-white" />
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
