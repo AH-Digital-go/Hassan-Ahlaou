@@ -2,6 +2,7 @@
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { InlineWidget } from "react-calendly";
 
 const Contact = () => {
 
@@ -32,7 +33,7 @@ const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 h-[calc(90vh-80px)]">
           {/* Left side - Contact Info */}
           <div className="space-y-8">
             <div>
@@ -94,69 +95,7 @@ const Contact = () => {
           </div>
 
           {/* Right side - Contact Form */}
-          <div className="bg-gray-900 rounded-2xl p-8 border border-gray-800">
-            <h3 className="text-2xl font-bold mb-6">Envoyer un Message</h3>
-            <form ref={formRef} onSubmit={sendEmail} className="space-y-6">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <div>
-                  <label className="block text-sm font-medium mb-2">Prénom</label>
-                  <input 
-                  name='prenom'
-                    type="text" 
-                    className="w-full bg-black border border-gray-700 rounded-xl px-4 py-3 text-white placeholder-gray-500 focus:border-accent-green focus:outline-none transition-colors"
-                    placeholder="John"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium mb-2">Nom</label>
-                  <input 
-                  name='nom'
-                    type="text" 
-                    className="w-full bg-black border border-gray-700 rounded-xl px-4 py-3 text-white placeholder-gray-500 focus:border-accent-green focus:outline-none transition-colors"
-                    placeholder="Doe"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium mb-2">Email</label>
-                <input 
-                name='email'
-                  type="email" 
-                  className="w-full bg-black border border-gray-700 rounded-xl px-4 py-3 text-white placeholder-gray-500 focus:border-accent-green focus:outline-none transition-colors"
-                  placeholder="john@example.com"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium mb-2">Sujet</label>
-                <input 
-                name='sujet'
-                  type="text" 
-                  className="w-full bg-black border border-gray-700 rounded-xl px-4 py-3 text-white placeholder-gray-500 focus:border-accent-green focus:outline-none transition-colors"
-                  placeholder="Business Consultation"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm font-medium mb-2">Message</label>
-                <textarea 
-                name='message'
-                  rows={5}
-                  className="w-full bg-black border border-gray-700 rounded-xl px-4 py-3 text-white placeholder-gray-500 focus:border-accent-green focus:outline-none transition-colors resize-none"
-                  placeholder="Tell me about your project..."
-                ></textarea>
-              </div>
-
-              <button 
-                type="submit"
-                className="w-full bg-accent-green text-accent-green-foreground font-semibold py-4 rounded-xl hover:bg-accent-green/90 transition-colors flex items-center justify-center space-x-2"
-              >
-                <span>Contactez Nous</span>
-                <Send className="w-4 h-4" />
-              </button>
-            </form>
-          </div>
+          <InlineWidget className='rounded-md' url="https://calendly.com/quiosk-ah/clinic" />
         </div>
 
         {/* Footer */}

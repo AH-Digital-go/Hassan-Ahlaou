@@ -1,73 +1,75 @@
-# Welcome to your Lovable project
+# Ahdigital • IA • AUTOMATISATION • NO-CODE • INFRASTRUCTURE DE CROISSANCE
 
-## Project info
+## 👤 Hassan AHLAOU  
+**Fondateur et CEO de Ahdigital**  
+📍 Agadir, Maroc  
+✉️ automation@ahdigital.tech  
+📞 0636308953  
 
-**URL**: https://lovable.dev/projects/6435d867-7cbc-4f98-b016-fddbf4ea944c
+---
 
-## How can I edit this code?
+## À PROPOS DE MOI
 
-There are several ways of editing your application.
+Avec plus de 20 ans d’expérience dans des secteurs stratégiques en France et à l’international (industrie, BTP, ferroviaire), j’ai collaboré avec des acteurs majeurs tels que **Cegelec**, **Fabricom**, **Vinci Construction**, **Bouygues**, **Alstom**, et **la RATP**.
 
-**Use Lovable**
+En parallèle, ma passion pour la technologie m’a conduit à devenir **autodidacte** en intelligence artificielle et automatisation, aux côtés des meilleurs experts francophones. En 2024, j’ai fondé **Ahdigital**, une agence dédiée à l’**IA Générative**, l’**Automatisation** et le **No-Code/Low-Code**.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/6435d867-7cbc-4f98-b016-fddbf4ea944c) and start prompting.
+🎯 **Notre mission** : rendre l’IA accessible, rapide à mettre en œuvre, et durable pour toutes les entreprises – des startups aux grands groupes.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🚀 NOS SERVICES
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### ✅ Audit & Conseil en IA et Automatisation
+- Diagnostic stratégique
+- Analyse des processus
+- Feuille de route technologique
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### ✅ Planification Stratégique & Croissance
+- Stratégies sur mesure
+- Productivité augmentée
+- Alignement digital & business
 
-Follow these steps:
+### ✅ Formation IA & No-code
+- Ateliers personnalisés
+- Accompagnement dirigeants & équipes
+- Cas pratiques adaptés aux métiers
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### ✅ Développement de Solutions IA
+- Automatisation intelligente
+- Intégration IA-métier
+- Conception de workflows optimisés
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🏆 RÉALISATIONS RÉCENTES
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### 🏢 Chambre de commerce
+**Automatisation des Cartes professionnelles**  
+→ Réduction des délais administratifs & erreurs humaines.
 
-**Edit a file directly in GitHub**
+### 🧮 Experts comptables
+**Saisie Automatique & Dashboard Financier**  
+→ Gain de temps + fiabilité grâce à l’automatisation comptable.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 🏨 Secteur Hôtellerie
+**Système d’Automatisation globale**  
+→ Réservations, gestion du personnel, chatbots multicanaux.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📞 TRAVAILLONS ENSEMBLE
 
-## What technologies are used for this project?
+Prêt·e à transformer votre activité avec l’IA ?  
+→ Profitez de solutions sur mesure, d’aides au financement et d’un accompagnement humain et stratégique.
 
-This project is built with:
+📧 **Email** : automation@ahdigital.tech  
+📍 **Adresse** : Technopark Route Nationale N°10, Agadir  
+🕘 **Horaires** :  
+Lun–Ven : 9h – 18h  
+Sam : 10h – 13h  
+Dim : Fermé
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/6435d867-7cbc-4f98-b016-fddbf4ea944c) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+© 2025 Hassan AHLAOU – Tous droits réservés.
