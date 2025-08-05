@@ -33,7 +33,7 @@ const Contact = () => {
   return (
     <section id="contact" className="py-20 bg-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 h-[calc(90vh-80px)]">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 ">
           {/* Left side - Contact Info */}
           <div className="space-y-8">
             <div>
@@ -95,7 +95,10 @@ const Contact = () => {
           </div>
 
           {/* Right side - Contact Form */}
-          <InlineWidget className='rounded-md' url="https://calendly.com/quiosk-ah/clinic" />
+          <div className='block h-full'>
+            <InlineWidget url="https://calendly.com/quiosk-ah/clinic" />
+          </div>
+          
         </div>
 
         {/* Footer */}
